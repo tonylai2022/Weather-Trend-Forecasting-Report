@@ -29,7 +29,7 @@ plt.xlabel('Date')
 plt.ylabel('Temperature (°C)')
 plt.legend()
 plt.grid(True)
-plt.savefig('figure_6_global_temperature_trend.png')
+plt.savefig('figure_4_global_temperature_trend.png')
 plt.show()
 
 # EDA: Correlation Analysis
@@ -73,7 +73,7 @@ plt.xlabel('Humidity (%)')
 plt.ylabel('Count')
 
 plt.tight_layout()
-plt.savefig('figure_2f_three_histograms_in_row.png')
+plt.savefig('figure_2_three_histograms_in_row.png')
 plt.show()
 
 # NEW: Time Series Trends and Cycles (ACF and PACF Plots)
